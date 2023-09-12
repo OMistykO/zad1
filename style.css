@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    border-radius: 5%;
+}
+.images-div img{
+    height: 200px;
+}
+header{
+    background-color: lightgrey ;
+    height: 150px;
+    font-size: 220%;
+    display: flex;
+    color: rgb(60, 60, 60);
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+header video{
+    height: 100%;
+}
+.menu{
+    background-color:rgb(60, 60, 60);
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+.option{
+    height: 100%;
+    margin-right: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option a{
+    color: white;
+    text-decoration: none;
+}
+.images-div{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin: 25px;
+}
+footer{
+    background-color: dimgrey;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+p{
+    margin-left: 15px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text1, .text2, .text3{
+    width: 50%;
+}
+.div1, .div2, .div3{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.text2{
+    margin-left: 100px;
+}
+h2{
+    margin-right: 55%;
+}
+.main a{
+    margin-left: 55%;
+}
+.image:hover{
+    scale: 120%;
+}
+li{
+    margin-left: 20px;
+}
+a[href="#menu"]{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
+}
